@@ -89,7 +89,7 @@ const skills = [
   {
     id: 8,
     title: "C",
-    imgSrc: "/assets/skills/c.png",
+    imgSrc: "/assets/skills/cLang.png",
     imgAlt: "c",
   },
   {
