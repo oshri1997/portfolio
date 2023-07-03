@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-const ProjectCard = ({ imgSrc, projectName, mainTech, projectUrl, githubUrl }) => {
+const ProjectCard = ({ imgSrc, projectName, mainTech, projectUrl, imgAlt, githubUrl }) => {
   return (
     <div
       className={`group relative mx-auto flex h-auto w-[95%] items-center justify-center rounded-xl from-bluep to-blueLight p-4 shadow-2xl  shadow-blue-500/20 duration-200 ease-in-out   hover:bg-gradient-to-r md:w-full `}
@@ -9,7 +9,7 @@ const ProjectCard = ({ imgSrc, projectName, mainTech, projectUrl, githubUrl }) =
       <Image
         className="rounded-xl object-cover  duration-200 ease-in-out hover:scale-[1.02] group-hover:opacity-10"
         src={imgSrc}
-        alt="property"
+        alt={imgAlt}
         width={800}
         height={700}
       />

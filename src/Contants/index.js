@@ -23,7 +23,7 @@ const navLinks = [
 
 const projects = [
   {
-    id: "1",
+    id: 1,
     projectName: "Weather App",
     projectUrl: "https://oshri1997.github.io/Weather-App/",
     githubUrl: "https://github.com/oshri1997/Weather-App",
@@ -32,7 +32,7 @@ const projects = [
     mainTech: "React",
   },
   {
-    id: "2",
+    id: 2,
     projectName: "Tere-Landing Page",
     projectUrl: "https://tere-t.netlify.app/",
     githubUrl: "https://github.com/oshri1997/Tere",
