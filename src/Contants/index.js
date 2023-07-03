@@ -36,7 +36,7 @@ const projects = [
     projectName: "Tere-Landing Page",
     projectUrl: "https://tere-t.netlify.app/",
     githubUrl: "https://github.com/oshri1997/Tere",
-    imgSrc: "/assets/projects/Tere.jpg",
+    imgSrc: "/assets/projects/Tere.png",
     imgAlt: "Tere",
     mainTech: "React",
   },
