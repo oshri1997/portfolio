@@ -85,6 +85,7 @@ const skills = [
     imgSrc: "/assets/skills/tailwind.png",
     imgAlt: "tailwindcss",
   },
+
   {
     id: 8,
     title: "C",
