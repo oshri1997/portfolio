@@ -14,7 +14,6 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [scroll, setScroll] = useState(false);
   const { resolvedTheme } = useTheme();
-  const [theme, setTheme] = useState("");
   const router = useRouter();
   const path = usePathname();
 
@@ -25,22 +24,6 @@ const Navbar = () => {
       setScroll(false);
     }
   };
-  const handleTheme = () => {
-    const isThemeOnLocalStorage = window.localStorage.getItem("theme");
-    if (isThemeOnLocalStorage === "system") {
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        setTheme("dark");
-      } else {
-        setTheme("light");
-      }
-    } else {
-      setTheme(isThemeOnLocalStorage);
-    }
-  };
-
-  useEffect(() => {
-    handleTheme();
-  }, [resolvedTheme]);
 
   useEffect(() => {
     if (!path.startsWith("/projects/")) {
@@ -62,8 +45,8 @@ const Navbar = () => {
     <nav
       className={
         scroll
-          ? `nav fixed ${theme}  z-50 h-20 w-full shadow-xl duration-200 ease-in-out`
-          : `nav fixed ${theme} z-50 h-20 w-full duration-200 ease-in-out`
+          ? `nav fixed ${resolvedTheme}  z-50 h-20 w-full shadow-xl duration-200 ease-in-out`
+          : `nav fixed ${resolvedTheme} z-50 h-20 w-full duration-200 ease-in-out`
       }
     >
       <div className="flex h-full w-full items-center justify-between px-2 2xl:px-16">
@@ -108,10 +91,10 @@ const Navbar = () => {
           className={
             toggle
               ? `fixed left-0 top-0 h-screen w-[75%] ${
-                  theme === "light" ? "bg-bodyBackground" : "bg-gray-900"
+                  resolvedTheme === "light" ? "bg-bodyBackground" : "bg-gray-900"
                 } p-10 duration-500 ease-in sm:w-[65%] md:hidden md:w-[45%]`
               : `fixed left-[-100%] top-0 h-screen w-[75%] ${
-                  theme === "light" ? "bg-bodyBackground" : "bg-gray-900"
+                  resolvedTheme === "light" ? "bg-bodyBackground" : "bg-gray-900"
                 } p-10 duration-500 ease-in sm:w-[65%] md:hidden md:w-[45%]`
           }
         >

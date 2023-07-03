@@ -22,8 +22,8 @@ const Projects = () => {
           className="grid gap-8 py-4 md:grid-cols-2"
         >
           {projectArr.map((project) => (
-            <motion.div variants={projectItem}>
-              <ProjectCard key={project.id} {...project} />
+            <motion.div key={project.id} variants={projectItem}>
+              <ProjectCard {...project} />
             </motion.div>
           ))}
         </motion.div>
