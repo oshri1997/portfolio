@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply tracking-wide;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+  h1 {
+    @apply text-3xl sm:text-5xl md:text-6xl;
+  }
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+  li {
+    @apply cursor-pointer;
+  }
+  button {
+    @apply rounded-xl bg-gradient-to-r from-bluep to-blueLight uppercase text-white shadow-xl shadow-gray-400;
+  }
+}
+
+@layer components {
+  .dark {
+    @apply bg-gray-900 text-white transition-all duration-200 ease-in;
+  }
+  .light {
+    @apply bg-bodyBackground text-primary transition-all duration-200 ease-in;
+  }
+  .blueCircle {
+    @apply rounded-full border border-blueLight shadow-[0_10px_50px_rgba(8,_112,_184,_0.7)];
+  }
+  .nav.light {
+    @apply bg-bodyBackground/60 backdrop-blur-md;
+  }
+  .nav.dark {
+    @apply bg-gray-900/60 backdrop-blur-md;
+  }
+}
