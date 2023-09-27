@@ -17,7 +17,7 @@ const Hero = () => {
             Hi,I'm <span className="text-bluep">Oshri</span>
           </motion.h1>
           <motion.h1 variants={textSlideRight} initial="hidden" animate="visible" className="">
-            A Frond-End Developer
+            A Frontend Developer
           </motion.h1>
           <motion.p
             initial={{
