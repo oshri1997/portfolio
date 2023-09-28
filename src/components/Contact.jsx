@@ -79,6 +79,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              required
               value={form.name}
               placeholder="What's your name"
               className="bg-tertiary placeholder:text-secondary rounded-lg border-none px-6 py-4 font-medium text-bluep outline-none"
@@ -90,6 +91,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
+              required
               value={form.email}
               placeholder="What's your email"
               className="bg-tertiary placeholder:text-secondary rounded-lg border-none px-6 py-4 font-medium text-bluep outline-none"
@@ -101,6 +103,7 @@ const Contact = () => {
             <textarea
               rows="5"
               name="message"
+              required
               value={form.message}
               placeholder="Write your message here"
               className="bg-tertiary placeholder:text-secondary rounded-lg border-none px-6 py-4 font-medium text-bluep outline-none"
