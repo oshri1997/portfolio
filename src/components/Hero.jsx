@@ -14,10 +14,10 @@ const Hero = () => {
             animate="visible"
             className="py-4 "
           >
-            Hi,I'm <span className="text-bluep">Oshri</span>
+            Hi,I'm <span className="text-bluep">Oshri Moalem</span>
           </motion.h1>
           <motion.h1 variants={textSlideRight} initial="hidden" animate="visible" className="">
-            A Frontend Developer
+            A Fullstack Developer
           </motion.h1>
           <motion.p
             initial={{
