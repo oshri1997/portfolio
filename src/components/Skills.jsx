@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { skillList, skillItem, textSlideLeft } from "@/utils/motion";
 const Skills = () => {
   return (
-    <div id="skills" className="w-full p-2 lg:-mt-60 lg:h-screen">
+    <div id="skills" className="w-full p-2 lg:-mt-[168px] lg:h-screen">
       <div className="mx-auto flex h-full max-w-[1240px] flex-col justify-center">
         <div className="mx-auto mb-2">
           <h1 className="py-4 uppercase tracking-widest text-bluep">My Skills</h1>
