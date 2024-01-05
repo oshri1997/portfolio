@@ -40,6 +40,15 @@ const projects = [
     imgAlt: "Tere",
     mainTech: "React",
   },
+  {
+    id: 3,
+    projectName: "TalkBuzz-Social Media",
+    projectUrl: "https://talkbuzz.netlify.app/",
+    githubUrl: "https://github.com/oshri1997/TalkBuzz--client",
+    imgSrc: "/assets/projects/talkbuzz.png",
+    imgAlt: "TalkBuzz",
+    mainTech: "NextJS",
+  },
 ];
 
 const skills = [
@@ -85,21 +94,35 @@ const skills = [
     imgSrc: "/assets/skills/tailwind.png",
     imgAlt: "tailwindcss",
   },
-
   {
     id: 8,
+    title: "NODEJS",
+    imgSrc: "/assets/skills/nodejs.png",
+  },
+  {
+    id: 9,
+    title: "EXPRESS",
+    imgSrc: "/assets/skills/exp.png",
+  },
+  {
+    id: 10,
+    title: "MONGODB",
+    imgSrc: "/assets/skills/mongo.png",
+  },
+  {
+    id: 9,
     title: "C",
     imgSrc: "/assets/skills/cLang.png",
     imgAlt: "c",
   },
   {
-    id: 9,
+    id: 10,
     title: "C++",
     imgSrc: "/assets/skills/c++.png",
     imgAlt: "c++",
   },
   {
-    id: 10,
+    id: 11,
     title: "git",
     imgSrc: "/assets/skills/git.png",
     imgAlt: "git",
