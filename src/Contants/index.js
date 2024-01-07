@@ -47,7 +47,7 @@ const projects = [
     githubUrl: "https://github.com/oshri1997/TalkBuzz--client",
     imgSrc: "/assets/projects/talkbuzz.png",
     imgAlt: "TalkBuzz",
-    mainTech: "NextJS",
+    mainTech: "React & NodeJS",
   },
 ];
 

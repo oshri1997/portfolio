@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
-  title: "Oshri | Frond End Developer",
+  title: "Oshri | Fullstack Developer",
   description: "Oshri's portfolio",
 };
 
