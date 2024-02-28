@@ -123,12 +123,24 @@ const skills = [
   },
   {
     id: 13,
+    title: "CSHARP",
+    imgSrc: "/assets/skills/csharp.png",
+    imgAlt: "csharp",
+  },
+  {
+    id: 14,
+    title: ".NET CORE",
+    imgSrc: "/assets/skills/dotnet_core.png",
+    imgAlt: ".net core",
+  },
+  {
+    id: 15,
     title: "C++",
     imgSrc: "/assets/skills/c++.png",
     imgAlt: "c++",
   },
   {
-    id: 14,
+    id: 16,
     title: "git",
     imgSrc: "/assets/skills/git.png",
     imgAlt: "git",
