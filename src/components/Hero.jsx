@@ -16,7 +16,7 @@ const Hero = () => {
           >
             Hi,I'm <span className="text-bluep">Oshri Moalem</span>
           </motion.h1>
-          <motion.h1 variants={textSlideRight} initial="hidden" animate="visible" className="">
+          <motion.h1 variants={textSlideRight} initial="hidden" animate="visible">
             A Fullstack Developer
           </motion.h1>
           <motion.p
@@ -34,11 +34,14 @@ const Hero = () => {
                 duration: 0.5,
               },
             }}
-            className="m-auto w-full p-2 py-4 text-base md:max-w-[70%] md:text-lg "
+            className="  m-auto w-full p-2 py-4 text-center text-base md:max-w-[70%] md:text-left md:text-lg "
           >
-            I bring ideas to life through elegant and efficient code, ensuring that every line
-            of code is purposeful and optimized for performance. By staying up to date with the
-            latest industry trends and best practices
+            I enjoy working <spam className="text-bluep">collaboratively</spam>, leveraging my
+            communication,
+            <spam className="text-bluep">teamwork, and interpersonal skills</spam>. <br />I
+            approach problems with a critical and creative mindset, maintaining a strong work
+            ethic and<spam className="text-bluep"> adaptability</spam>. Effective time
+            management keeps me on track and contributes to project success.
           </motion.p>
           <motion.div
             initial={{
