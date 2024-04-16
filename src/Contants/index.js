@@ -49,6 +49,15 @@ const projects = [
     imgAlt: "TalkBuzz",
     mainTech: "React & NodeJS",
   },
+  {
+    id: 4,
+    projectName: "Dev-Log",
+    projectUrl: "https://dev-log-u394.onrender.com/",
+    githubUrl: "https://github.com/oshri1997/Dev_Log_Blog",
+    imgSrc: "/assets/projects/devlog.jpg",
+    imgAlt: "Dev-Log",
+    mainTech: "React(Typscript) & NodeJS",
+  },
 ];
 
 const skills = [
